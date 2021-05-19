@@ -7,26 +7,44 @@ This is a thesis project about comparing imputation performances between deep le
 To run the code of this project normally, the packages below would be required:
 ### Python code:
 python == 3.7
+
 tensorflow == 1.15.0
+
 tensorflow_probability == 0.8.0
+
 numpy
+
 pandas
+
 matplotlib
+
 sickit-learn
 
 ### R code:
 R == 4.0.3
+
 mice
+
 missForest
+
 MASS
+
 Amelia
+
 missMDA
+
 softImpute
+
 parallel
+
 mltools
+
 gdata
+
 devtools
+
 ggplot2
+
 tidyr, dplyr
 
 ## Data Processing:
@@ -61,11 +79,14 @@ Initially, run the `./Rcode/Impute.R` to start imputation by conventional method
 
 ## Code Running:
 Linux server is highly recommended for running the code of this research. Initially, you need to use `cd` command is fix the workspace into the code address.
+
 For python code, the code in file could be run in format in command line as `python \address\to\file.py &`.
+
 For R code, the code could be run in command line as `R CMD BATCH \address\to\file.py &`.
 
 ## Parameters Tuning:
 For deep learning methods, detail structure parameters, e.g. balanced parameters, noise ranges or layers nodes, could be fixed in `./parameters/Parameters_setting.py`. Training parameters, e.g. epochs/batch size, # of testing and sample testing could be fixed in `experiments.py`.
+
 For conventional statistical methods, parameters tunning could be finished in `./Rcode/Imputed.R`. It should be mentioend that multi-processing was applied in imputations under conventional statistical methods, where several or lots of CPU could be required. If the computing resources are not enough, the `mc.cores` could be properly fixed.
 
 
