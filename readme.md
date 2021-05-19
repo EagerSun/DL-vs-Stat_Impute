@@ -70,7 +70,9 @@ For conventional statistical methods, parameters tunning could be finished in `.
 
 
 ## Resource
-[GAIN resources](https://github.com/jsyoon0823/GAIN)
-[VAE resources](https://github.com/ProcessMonitoringStellenboschUniversity/IFAC-VAE-Imputation)
-[Features Spliting resources](https://github.com/rcamino/imputation-dgm)
+[GAIN resources from Jinsung Yoon](https://github.com/jsyoon0823/GAIN)
+
+[VAE resources from JT McCoy](https://github.com/ProcessMonitoringStellenboschUniversity/IFAC-VAE-Imputation)
+
+[Features Spliting resources from rcamino](https://github.com/rcamino/imputation-dgm)
 
