@@ -2,6 +2,7 @@
 
 This is a thesis project about comparing imputation performances between deep learning methods and conventional statistical methods. In this project, GAIN and VAE with One-Hot and trainable embeddings for categorical variables were built for deep learning methods. MICE and Miss-Forest were chosen for representing conventional statistical methods.
 
+Here is the link of our [paper](https://github.com/EagerSun/DL-vs-Stat_Impute/blob/main/paper/Deep%20Learning%20vs%20Conventional%20Stat%20in%20Missing%20Data%20Imputation.pdf).
 ## Requirements:
 
 To run the code of this project normally, the packages below would be required:
